@@ -1,0 +1,32 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app > img {
+  width: 64px;
+}
+
+#app > h1 {
+  color: var(--primary-mid);
+}
+
+#app > h2 {
+  align-self: flex-start;
+  margin-top: 104px;
+  color: var(--text-primary);
+}
+
+#app > p {
+  align-self: flex-start;
+  margin-top: 32px;
+  text-align: justify;
+  width: 512px;
+  color: var(--text-primary);
+}
+
+#app .placeholder {
+  color: var(--text-secondary);
+  user-select: none;
+}
